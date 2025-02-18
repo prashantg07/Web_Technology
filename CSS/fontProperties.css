@@ -1,0 +1,35 @@
+/* p{
+    font-size: x-large;
+    font-weight: normal;
+    font-style: italic;
+    font-variant: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+
+
+/* ! NOTES:
+
+1. font-size
+   xx-small, x-small, small, normal, medium, large, x-large, xx-large
+
+2. font-weight
+   100-900, bold, normal, bolder, lighter
+
+3. font-style
+   normal, italic, oblique
+
+4. font-variant
+   normal, small-caps
+
+5. font-family
+   From Vs code, Google Fonts */
+
+   
+
+#first {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  

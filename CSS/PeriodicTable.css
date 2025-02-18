@@ -1,0 +1,61 @@
+td{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+table{
+    color: white;
+    /* border-collapse: collapse; */
+}
+
+.Lightseagreen{
+    background-color: lightseagreen;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.Orange{
+    background-color: orangered;
+}
+
+.shadowgreen{
+    background-color: rgb(132, 237, 138);
+}
+
+.darkgreen{
+    background-color: rgb(12, 74, 12);
+}
+
+.lightred{
+    background-color: rgb(236, 55, 55);
+}
+
+.skyblue{
+    background-color: rgb(23, 142, 142);
+}
+
+.purple{
+    background-color: purple;
+}
+
+.darkblue{
+    background-color: rgb(66, 66, 253);
+}
+
+.lightgreen{
+    background-color: rgb(0, 255, 0);
+}
+
+.redo{
+    background-color: rgb(191, 6, 6);
+}
+
+#tabletwo{
+    margin-left: 50px;
+}
+
+
+

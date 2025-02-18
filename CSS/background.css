@@ -1,0 +1,56 @@
+section{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    background-image: url(./mypics.jpg);
+    background-repeat: no-repeat;
+    /* repeat, repeat-x, repeat-y, no-repeat */
+
+    /* ? background-position-x: center; */
+    /* left, right, center */
+
+    /* ? background-position-y: center; */
+    /* top, bottom, center */
+
+    background-position: center center;
+    background-position: center;
+
+    background-size: contain;
+} 
+
+body{
+    color: white;
+
+    background: url("https://cdn.pixabay.com/photo/2012/12/27/19/41/halloween-72939_640.jpg") no-repeat;
+
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+
+/*! NOTES: 
+
+1. background-color
+    Any Color
+
+2. background-image
+    url(path Address)
+
+3. background-repeat
+    repeat, repeat-x, repeat-y, no-repeat
+
+4. background-position-x
+    left, right, center
+
+5. background-position-y
+    top, bottom, center
+
+6. background-position
+    background-position-x background-position-y
+
+7. background-size
+    auto, contain, cover
+
+8. background-attachment
+    scroll, fixed
+     

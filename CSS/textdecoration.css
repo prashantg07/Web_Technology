@@ -1,0 +1,61 @@
+p{
+    color: rgb(170, 25, 49);
+
+    text-align: justify;
+    /* left, right, center, start, end, justify */
+
+    text-transform: capitalize;
+    /* lowercase, uppercase, capitalize */
+
+    text-indent: 150px;
+    /* Any number */
+
+    text-wrap: wrap;
+    /* wrap, nowrap */
+
+    letter-spacing: 5px;
+    
+    word-spacing: 15px;
+
+    line-height: 30px;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    text-decoration-line: underline;
+    /* underline, overline, line-through */
+
+    text-decoration-style: double;
+    /* solid, dashed, dotted, double, wavy */
+
+    text-decoration-color: rgb(0, 174, 20);
+    /* Any color */
+
+    text-shadow: 2px 2px 3px #da0eaa;
+}
+
+h2{
+    text-decoration: underline overline double burlywood;
+}
+
+div{
+    line-height: 100px;
+}
+
+/* ! NOTES:
+
+1. color
+2. text-align
+3. text-transform
+4. text-wrap
+5. text-indent
+6. text-decoration-line
+7. text-decoration-style
+8. text-decoration-color
+9. text-decoration
+10. letter-spacing
+11. word-spacing
+12. line-height
+13. text-shadow
+

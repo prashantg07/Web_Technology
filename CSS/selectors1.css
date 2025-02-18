@@ -1,0 +1,90 @@
+/* a:active{
+    color: aqua;
+}
+
+a:link{
+    color: yellow;
+}
+
+a:visited{
+    color: brown;
+} */
+
+/* section :first-child{
+    color: aqua;
+    background-color: black;
+} */
+
+/* section :last-child{
+    color: aqua;
+    background-color: black;
+} */
+
+/* section :nth-child(2){
+    color: aqua;
+    background-color: black;
+} */
+
+/* even-(2n) */
+
+/* section :nth-child(even){    
+    color: aqua;
+    background-color: teal;
+} */
+
+/* odd-(2n+1) */
+
+/* section :nth-child(odd){
+    color: white;
+    background-color: tan;
+}  */
+
+/* section :first-of-type{
+    color: white;
+    background-color: teal;
+}
+
+section :last-of-type{
+    color: white;
+    background-color: tan;
+} */
+
+/* h2::before{
+    content: "Mr. ";
+}
+
+h2::after{
+    content: " , You Got Selected...";
+}
+
+p::selection{
+    color: chocolate;
+    background-color: bisque;
+} */
+/* 
+li::marker{
+    color: rebeccapurple;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 50px;
+}
+
+p::first-line{
+    color: teal;
+} */
+
+/* img[alt="love3"]{
+    height: 200px;
+} */
+
+input:checked+ p::after{
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quas rerum qui quos, vero illum soluta necessitatibus magni tempore eveniet laboriosam suscipit magnam, minima dolores ea harum illo fugit esse."
+
+}
+
+input:focus{
+    color: white;
+    background-color: blue;
+}

@@ -1,0 +1,83 @@
+/* Grouping Selector */
+/* p,div,b,i,body{
+    color: blue;
+    background-color: aqua;
+} */
+
+/* p{
+    color: blue;
+    background-color: aqua;
+}
+
+div{
+    color: blue;
+    background-color: aqua;
+}
+
+b{
+    color: blue;
+    background-color: aqua;
+}
+
+i{
+    color: blue;
+    background-color: aqua;
+}
+  */
+
+/* Universal Selector */
+/* *{
+    color: blue;
+    background-color: aqua;
+} */
+
+/* id(#) & class(.) */
+/* #first{
+    color: aqua;
+}
+
+#third{
+    color: orange;
+}
+
+.demo4{
+    background-color: blueviolet;
+} */
+
+
+/* Combinator Selectors  */
+/* section  p{
+    background-color: teal;
+} */
+
+/* section > p{
+    background-color: teal;
+} */
+
+/* section + p{
+    background-color: teal;
+} */
+
+/* section ~ p{
+    background-color: teal;
+} */
+
+
+/* PseudoClass Selector */
+p:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(194, 54, 78);
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+div:hover{
+    width: 500px;
+    background-color: blue;
+}
+

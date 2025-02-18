@@ -1,0 +1,7 @@
+td:nth-child(even):hover{
+    background-color: brown;
+}
+
+td:nth-child(odd):hover{
+    background-color: teal;
+}

@@ -1,0 +1,77 @@
+#sectionone {
+    height: 0;
+    width: 0;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    border-bottom: 150px solid;
+  }
+  #sectiontwo {
+    height: 0;
+    width: 0;
+    border-top: 125px solid transparent;
+    border-left: 150px solid;
+    border-bottom: 125px solid transparent;
+    align-items: center;
+  }
+  #sectionthree {
+    height: 0;
+    width: 0;
+    border-top: 125px solid transparent;
+    border-right: 150px solid;
+    border-bottom: 125px solid transparent;
+  }
+  #sectionfour {
+    height: 0;
+    width: 0;
+    border-top: 150px solid;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+  }
+  #sectionfive {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: radial-gradient(
+      circle,
+      #27d4b6,
+      #00aab8,
+      #007ea9,
+      #005287,
+      #262857
+    );
+  }
+  #sectionsix {
+    height: 150px;
+    width: 150px;
+    /* border-radius: 75% 4% 75% 4% ; */
+    background-image: linear-gradient(to right top, #7a9f41, #aa842b, #c46644, #c2506e, #9d5297);
+    border-top-left-radius: 200px;
+    border-top-right-radius: 205px;
+    border-bottom-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+  }
+  #sectionseven {
+    height: 120px;
+    width: 120px;
+    background-color: black;
+    border-radius: 120px 130px 150px 180px;
+    background-image: linear-gradient(to right top, #0a0337, #2d184f, #512a68, #763e80, #9d5297);
+  }
+  #sectioneight{
+    height: 130px;
+    width: 130px;
+    border-radius: 140px 190px 230px 30px;
+    background-image: linear-gradient(to right top, #892069, #ae185f, #cc1f4d, #e13933, #e95b01);
+  }
+  #sectionnine{
+    height: 120px;
+    width: 120px;
+    border-radius: 120px 0px 0px 120px;
+    background-image: linear-gradient(to right top, #48e090, #00c6cc, #00a1f3, #106fe0, #962491);
+  }
+  #sectionten{
+    height: 120px;
+    width: 120px;
+    background-image: linear-gradient(to right top, #d83793, #c93ca5, #b444b5, #994dc4, #7656d0, #555bc9, #335ebe, #005eb1, #00568e, #004a67, #013b44, #1e2a2a);
+    border-radius: 120px 0px ;
+  }

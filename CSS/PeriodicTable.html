@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <link rel="stylesheet" href="./PeriodicTable.css">
+</head>
+<body>
+    <center>
+        <h1>Periodic Table</h1>
+        <table cellpadding="10px" cellspacing="1">
+            <tr>
+                <td class="Lightseagreen">H</td>
+                <td colspan="16"></td>
+                <!-- <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> -->
+                <td class="purple">He</td>
+            </tr>
+            <tr>
+                <td class="yellow">Li</td>
+                <td class="Orange">Be</td>
+                <td colspan="10" id="remove"></td>
+                <!-- <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> -->
+                <td class="shadowgreen">B</td>
+                <td class="lightred">C</td>
+                <td class="lightred">N</td>
+                <td class="lightred">O</td>
+                <td class="skyblue">F</td>
+                <td class="purple">Ne</td>
+            </tr>
+            <tr>
+                <td class="yellow">Na</td>
+                <td class="Orange">Mg</td>
+                <td colspan="10" id="remove"></td>
+                <!-- <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> -->
+                <td class="darkgreen">Al</td>
+                <td class="shadowgreen">Si</td>
+                <td class="lightred">P</td>
+                <td class="lightred">S</td>
+                <td class="skyblue">Cl</td>
+                <td class="purple">Ar</td>
+            </tr>
+            <tr>
+                <td class="yellow">K</td>
+                <td class="Orange">Ca</td>
+                <td class="darkblue">Sc</td>
+                <td class="darkblue">Ti</td>
+                <td class="darkblue">V</td>
+                <td class="darkblue">Cr</td>
+                <td class="darkblue">Mn</td>
+                <td class="darkblue">Fe</td>
+                <td class="darkblue">Co</td>
+                <td class="darkblue">Ni</td>
+                <td class="darkblue">Cu</td>
+                <td class="darkblue">Zn</td>
+                <td class="darkgreen">Ga</td>
+                <td class="shadowgreen">Ge</td>
+                <td class="shadowgreen">As</td>
+                <td class="lightred">Se</td>
+                <td class="skyblue">Br</td>
+                <td class="purple">Kr</td>
+            </tr>
+            <tr>
+                <td class="yellow">Rb</td>
+                <td class="Orange">Sr</td>
+                <td class="darkblue">Y</td>
+                <td class="darkblue">Zr</td>
+                <td class="darkblue">Nb</td>
+                <td class="darkblue">Mo</td>
+                <td class="darkblue">Tc</td>
+                <td class="darkblue">Ru</td>
+                <td class="darkblue">Rh</td>
+                <td class="darkblue">Pd</td>
+                <td class="darkblue">Ag</td>
+                <td class="darkblue">Cd</td>
+                <td class="darkgreen">In</td>
+                <td class="darkgreen">Sn</td>
+                <td class="shadowgreen">Sb</td>
+                <td class="shadowgreen">Te</td>
+                <td class="skyblue">I</td>
+                <td class="purple">Xe</td>
+            </tr>
+            <tr>
+                <td class="yellow">Cs</td>
+                <td class="Orange">Ba</td>
+                <td class="redo">57-71</td>
+                <td class="darkblue">Hf</td>
+                <td class="darkblue">Ta</td>
+                <td class="darkblue">W</td>
+                <td class="darkblue">Re</td>
+                <td class="darkblue">Os</td>
+                <td class="darkblue">Ir</td>
+                <td class="darkblue">Pt</td>
+                <td class="darkblue">Au</td>
+                <td class="darkblue">Hg</td>
+                <td class="darkgreen">Tl</td>
+                <td class="darkgreen">Pb</td>
+                <td class="darkgreen">Bi</td>
+                <td class="shadowgreen">Po</td>
+                <td class="skyblue">At</td>
+                <td class="purple">Rn</td>
+            </tr>
+            <tr>
+                <td class="yellow">Fr</td>
+                <td class="Orange">Ra</td>
+                <td class="lightgreen">89-103</td>
+                <td class="darkblue">Rf</td>
+                <td class="darkblue">Db</td>
+                <td class="darkblue">Sg</td>
+                <td class="darkblue">Bh</td>
+                <td class="darkblue">Hs</td>
+                <td class="darkblue">Mt</td>
+                <td class="darkblue">Ds</td>
+                <td class="darkblue">Rg</td>
+                <td class="darkblue">Cn</td>
+                <td class="darkgreen">Nh</td>
+                <td class="darkgreen">Fl</td>
+                <td class="darkgreen">Mc</td>
+                <td class="darkgreen">Lv</td>
+                <td class="skyblue">Ts</td>
+                <td class="purple">Og</td>
+            </tr>
+        </table> <br> <br>
+        <table cellpadding="10px" id="tabletwo" cellspacing="1px">
+            <tr>
+                <td class="redo">La</td>
+                <td class="redo">Ce</td>
+                <td class="redo">Pr</td>
+                <td class="redo">Nd</td>
+                <td class="redo">Pm</td>
+                <td class="redo">Sm</td>
+                <td class="redo">Eu</td>
+                <td class="redo">Gd</td>
+                <td class="redo">Tb</td>
+                <td class="redo">Dy</td>
+                <td class="redo">Ho</td>
+                <td class="redo">Er</td>
+                <td class="redo">Tm</td>
+                <td class="redo">Yb</td>
+                <td class="redo">Lu</td>
+            </tr>
+            <tr>
+                <td class="lightgreen">Ac</td>
+                <td class="lightgreen">Th</td>
+                <td class="lightgreen">Pa</td>
+                <td class="lightgreen">U</td>
+                <td class="lightgreen">Np</td>
+                <td class="lightgreen">Pu</td>
+                <td class="lightgreen">Am</td>
+                <td class="lightgreen">Cm</td>
+                <td class="lightgreen">Bk</td>
+                <td class="lightgreen">Cf</td>
+                <td class="lightgreen">Es</td>
+                <td class="lightgreen">Fm</td>
+                <td class="lightgreen">Md</td>
+                <td class="lightgreen">No</td>
+                <td class="lightgreen">Lr</td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>

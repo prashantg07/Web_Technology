@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h1>Tables</h1>
+    <table border="5px" cellspacing="10" cellpadding="12">
+        <caption>Student Information</caption>
+        <tr>
+            <th>S.no</th>
+            <th>Name</th>
+            <th>Qualification</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Prashant</td>
+            <td>B.Tech</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Vishal</td>
+            <td>B.Tech</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Deepak</td>
+            <td>B.Tech</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <table border="">
+        <tr>
+            <td>S.no</td>
+            <td>Name</td>
+            <td>Qualification</td>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Prashant</td>
+            <td rowspan="2">B.Tech</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Vishal</td>
+            <!--<td>B.Tech</td> -->
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Deepak</td>
+            <td>B.Tech</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <table border="">
+        <tr>
+            <td>S.no</td>
+            <td colspan="2">Details</td>
+            <!--<td>Details</td> -->
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Prashant</td>
+            <td>B.Tech</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Vishal</td>
+            <td>B.Tech</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Deepak</td>
+            <td>B.Tech</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <table border="5px" cellspacing="10" cellpadding="12">
+        <caption>Student Information</caption>
+        <thead style="background-color: red;">
+            <tr>
+                <th>S.no</th>
+                <th>Name</th>
+                <th>Qualification</th>
+            </tr>
+        </thead>
+        <tbody style="background-color: aqua;">
+            <tr>
+                <td>1.</td>
+                <td>Prashant</td>
+                <td>B.Tech</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Vishal</td>
+                <td>B.Tech</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Deepak</td>
+                <td>B.Tech</td>
+            </tr>
+        </tbody>
+        <tfoot style="background-color: yellow;">
+            <td colspan="3">For more Information<a href="">Click here</a></td>
+        </tfoot>
+    </table>
+</body>
+</html>
+
